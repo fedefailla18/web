@@ -1,38 +1,94 @@
 .App {
   text-align: center;
+  /* background: darkgreen; */
+  background-color: #fde79f;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Spartan', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.color-nav {
+  background-color:  white;
+  color: #cc5d32 !important;
+  /* #fef3cf; */
+  /* #F9BC1C; */
+  /* wheat; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-nav {
+  margin: 1px 13px -1px 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.jumbo {
+  /* background: bisque; */
+  /* background: #F9BC1C; */
+  background: #CC5D32 !important;
+  color: wheat !important;
+  width: 95%;
+  position: relative;
+  left: 32px;
+  margin: 5px 0px 25px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+nav a {
+  color: #cc5d32 !important;
+}
+/* 
+body, html {
+  height: 100%;
+} */
+
+.background-image {
+  /* background-image: url(./assets/space-bg.jpg); */
+  /* background-image: 
+  url("localhost:3001/assets/h_van.png"); */
+
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  min-height: 720.794px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* MENU CSS */
+
+.menu-holder  , .menu-item{
+  float:left;
+  width:100%;
+  position:relative;
 }
+.menu-item {
+  padding:0px 20px;
+}
+.menu-item-details {
+  display:table
+}
+.menu-item-desc {
+  padding-right: 5px; font-family: 'Roboto Condensed', sans-serif;
+  font-weight:bold; 
+  text-align:left;
+  font-size:20px;
+  display: table-cell;
+  white-space: nowrap;
+  width: 10%;
+  line-height:15px;
+  text-align:left;
+}
+.menu-item-dot {
+  display: table-cell;
+  width: 88%;
+  border-bottom: 1px dotted #000;
+}
+.menu-item-price {
+  text-align:left;
+  font-size:24px;
+    color: #F44334;
+    font-weight: 600;
+}
+.menu-item-prices {
+  display: table-cell;
+  white-space: nowrap;
+  width: 2%;
+  padding:10px 0 0 10px;
+  text-align:left;
+} 
